@@ -1,28 +1,35 @@
+<!--
+ * @Author: Badcandy 568197314@qq.com
+ * @Date: 2022-10-17 13:43:52
+ * @LastEditors: Badcandy 568197314@qq.com
+ * @LastEditTime: 2022-10-18 20:13:05
+ * @FilePath: \myblog_admin\src\App.vue
+ * @Description: 入口文件
+ * 
+ * Copyright (c) 2022 by Badcandy 568197314@qq.com, All Rights Reserved. 
+-->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <Login></Login>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Login from './components/Login';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Login
+}
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 </style>
