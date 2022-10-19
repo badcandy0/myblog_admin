@@ -2,7 +2,7 @@
  * @Author: Badcandy 568197314@qq.com
  * @Date: 2022-10-18 19:55:01
  * @LastEditors: Badcandy 568197314@qq.com
- * @LastEditTime: 2022-10-18 19:55:49
+ * @LastEditTime: 2022-10-19 09:15:33
  * @FilePath: \myblog_admin\.eslintrc.js
  * @Description: 
  * 
@@ -26,6 +26,7 @@ module.exports = {
        //在rules中添加自定义规则
        //关闭组件命名规则
        "vue/multi-word-component-names":"off",
+       'semi':0
     },
     overrides: [
       {

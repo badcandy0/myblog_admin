@@ -2,7 +2,7 @@
  * @Author: Badcandy 568197314@qq.com
  * @Date: 2022-10-17 13:43:52
  * @LastEditors: Badcandy 568197314@qq.com
- * @LastEditTime: 2022-10-18 20:13:05
+ * @LastEditTime: 2022-10-19 14:25:02
  * @FilePath: \myblog_admin\src\App.vue
  * @Description: 入口文件
  * 
@@ -10,7 +10,7 @@
 -->
 <template>
   <div id="app">
-   <Login></Login>
+  <router-view></router-view>
   </div>
 </template>
 
@@ -28,7 +28,7 @@ export default {
 
 <style>
 #app {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
 }
